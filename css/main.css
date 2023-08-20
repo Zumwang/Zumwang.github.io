@@ -771,7 +771,7 @@ html {
 html,
 body {
   height: 100%;
-  font-family: KaiTi,"Microsoft YaHei",Georgia, sans, serif;;
+  font-family: Heiti SC,Georgia,Helvetica,Arial, sans, serif;;
   overflow-wrap: break-word;
 }
 body {
@@ -1381,7 +1381,7 @@ figure.highlight td.code > pre {
 .markdown-body {
   font-size: 1rem;
   line-height: 1.6;
-  font-family: KaiTi,"Microsoft YaHei",Georgia, sans, serif;;
+  font-family: Heiti SC,Georgia,Helvetica,Arial, sans, serif;;
   margin-bottom: 2rem;
   color: var(--post-text-color);
 }
