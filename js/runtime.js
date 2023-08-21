@@ -26,13 +26,13 @@ setInterval(() => {
     if (second > 0) {
      time[4] = nol(second);
     }
-    if ((Number(time[2])<22) && (Number(time[2])>7)){
+    if ((Number(time[2]) >= 7) && (Number(time[2]) < 22)){
       currentTimeHtml =
-      "<img class='boardsign' src='https://img.shields.io/badge/糖果屋-营业中-6adea8?style=social&logo=cakephp' title='建设中~'><div id='runtime'>" + '已缓慢运行了 ' + time[0] + ' 年 ' + time[1] + ' 天 ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>';
+      "<img class='boardsign' src='https://img.shields.io/badge/小站-Opening-6adea8?style=social&logo=cakephp' title='建设中~'><div id='runtime'>" + '已缓慢运行了 ' + time[0] + ' 年 ' + time[1] + ' 天 ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>';
     }
     else{
       currentTimeHtml =
-      "<img class='boardsign' src='https://img.shields.io/badge/糖果屋-打烊了-6adea8?style=social&logo=coffeescript' title='Sleeping~'><div id='runtime'>" + '已缓慢运行了 ' + time[0] + ' 年 ' + time[1] + ' 天 ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>';
+      "<img class='boardsign' src='https://img.shields.io/badge/小站-Sleeping-6adea8?style=social&logo=coffeescript' title='Sleeping~'><div id='runtime'>" + '已缓慢运行了 ' + time[0] + ' 年 ' + time[1] + ' 天 ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>';
     }
     document.getElementById("workboard").innerHTML = currentTimeHtml;
   }, 1000);
