@@ -53,20 +53,20 @@
     
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title></title>
+      <link href="/css/custom.css"/>
+      <url>/css/custom.css</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[/* 页脚与头图透明 */#footer {    background: transparent !important;  }  #page-header {    background: transparent !important;  }    /* 白天模式遮罩透明 */  #footer::before {    background: transparent !important;  }  #page-header::before {    background: transparent !important;  }    /* 夜间模式遮罩透明 */  [data-theme="dark"] #footer::before {    background: transparent !important;  }  [data-theme="dark"] #page-header::before {    background: transparent !important;  }]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -80,6 +80,17 @@
       <url>/sources/big-counter.css</url>
       
         <content type="html"><![CDATA[.pace {-webkit-pointer-events: none;pointer-events: none;-webkit-user-select: none;-moz-user-select: none;user-select: none;}.pace.pace-inactive .pace-progress {display: none;}.pace .pace-progress {position: fixed;z-index: 2000;top: 0;right: 0;height: 5rem;width: 5rem;-webkit-transform: translate3d(0, 0, 0) !important;-ms-transform: translate3d(0, 0, 0) !important;transform: translate3d(0, 0, 0) !important;}.pace .pace-progress:after {display: block;position: absolute;top: 0;right: .5rem;content: attr(data-progress-text);font-family: "Helvetica Neue", sans-serif;font-weight: 100;font-size: 5rem;line-height: 1;text-align: right;color: rgba(178, 102, 199, 0.19999999999999996);}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
