@@ -1164,3 +1164,7 @@ body {
   display: none;
 }
 
+/* 去掉卡片阴影 */
+.card {
+  box-shadow: none;
+}
