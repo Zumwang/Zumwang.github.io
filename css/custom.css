@@ -1172,5 +1172,5 @@ body {
 /* 左上角英文字体引入 */
 @font-face {
   font-family: "Kreadon_B";
-  src: url(https://zumwang.github.io/font/Kreadon_B.woff2)format("woff2");
+  src: url(/font/Kreadon_B.woff2)format("woff2");
 }
