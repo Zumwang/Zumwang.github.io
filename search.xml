@@ -8,7 +8,7 @@
       <link href="/posts/57ea2372.html"/>
       <url>/posts/57ea2372.html</url>
       
-        <content type="html"><![CDATA[<h2 id="Markdown排版规范"><a href="#Markdown排版规范" class="headerlink" title="Markdown排版规范"></a>Markdown排版规范</h2><p>本文来自知乎作者黄浮云，转载仅用于Markdown练习以及排版规范学习。</p><p>原文链接：<a href="">https://zhuanlan.zhihu.com/p/69376149</a></p><h3 id="一、Markdown-标记的典型使用"><a href="#一、Markdown-标记的典型使用" class="headerlink" title="一、Markdown 标记的典型使用"></a>一、Markdown 标记的典型使用</h3><h4 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h4><ul><li>文章的顶层标题使用 <strong>二级标题</strong> （有时文章的标题并不需要写在文章里，比如大多数博客有专门的位置填写文章标题，此时这级标题可以省略）</li><li>每个小节的标题使用 <strong>三级标题</strong></li><li>小节中进一步分层组织时使用 <strong>四级标题</strong></li><li>尽量少用 <strong>五级标题</strong> 和 <strong>六级标题</strong> ，考虑用有序列表和无序列表代替</li><li>完全不用 <strong>一级标题</strong></li></ul><h4 id="粗体、斜体"><a href="#粗体、斜体" class="headerlink" title="粗体、斜体"></a>粗体、斜体</h4><p>需要强调某处内容时使用 <strong>粗体</strong> ，如：</p><blockquote><p>中文全角标点符号占 <strong>一个</strong> 汉字宽度，英文半角标点占 <strong>半个</strong> 汉字宽度（亦即一个字母宽度）。</p></blockquote><p>在中文排版中不使用<em>斜体</em> 。在英文排版中可用斜体表达强调，或表示书名、题目。</p><h4 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h4><p>以下情况使用引用标记：</p><ul><li>引述内容时（也可直接用引号替代）</li><li>作示例时</li><li>给出提示、警告等额外说明时</li></ul><h4 id="行内代码"><a href="#行内代码" class="headerlink" title="行内代码"></a>行内代码</h4><p>某一行文字中嵌入简短代码时使用 <strong>行内代码</strong> ，如：</p><p><code>echo &#39;Hello Wrold&#39;</code></p><h4 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h4><p>展示多行代码时使用 <strong>代码块</strong> ，也可用于 XML、JSON、配置项等。尽量在使用代码块时给出语言标识，有些 Markdown 工具会针对该语言高亮显示其中的语言元素。如：</p><blockquote><p>#include &lt;stdio.h&gt;<br>main()<br>{<br>printf(“Hello World!\n”);<br>}</p></blockquote><p>将显示为：</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line">main()</span><br><span class="line">&#123;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;Hello World!\n&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h4 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h4><p>Markdown 中使用</p><p><code>![图片名称](xx.xx/xx)</code></p><p>来插入图片，这里的「图片名称」可以任取，但是推荐使用对图片主题具有描述性的文字。因为在一些网站或软件中，图片无法加载时会显示这个「图片名称」，这时至少还能给读者传递出一点有用信息。</p><h4 id="转义符号"><a href="#转义符号" class="headerlink" title="转义符号"></a>转义符号</h4><p>如果不想让 Markdown 标记生效，可以在标记的每个符号前加上反斜杠（****），这样这些符号将按原样显示，不再具有 Markdown 中的特殊意义。如：</p><blockquote><p>不想让引用块标记生效，可以使用\&gt;，将显示为 &gt;<br>不想让二级标题标记生效，可以使用#\# ，将显示为##</p></blockquote><hr><h3 id="二、空白符号的运用"><a href="#二、空白符号的运用" class="headerlink" title="二、空白符号的运用"></a>二、空白符号的运用</h3><h4 id="空格"><a href="#空格" class="headerlink" title="空格"></a>空格</h4><p>Markdown 中<strong>半角空格</strong>的使用很重要，一些情况下能调节文字间距使得排版更加美观。</p><ul><li>中英文混排时，英文前后各加一个空格，如：</li></ul><blockquote><p>请坚信 Markdown 会为你带来生产力的提升。</p></blockquote><ul><li>中文和阿拉伯数字混排时，数字前后各加一个空格，如：</li></ul><blockquote><p>2008 年已经过去 11 年了！</p></blockquote><ul><li>若英文或阿拉伯数字若紧邻<strong>中文全角标点</strong>，则其与标点之间<strong>不加</strong>空格，如：</li></ul><blockquote><p>有了 Markdown，可以不再用 Word。</p></blockquote><ul><li>行内代码的两端各添加一个空格。若行内代码紧邻标点符号，则其与标点之间<strong>不加</strong>空格</li></ul><blockquote><p>打开 Linux 虚拟终端，输入 <code>echo &#39;Hello World&#39;</code>。</p></blockquote><h4 id="空行"><a href="#空行" class="headerlink" title="空行"></a>空行</h4><p>正文段落之间用一个空行来分隔，可以显得段落分明、结构不拥挤，如：</p><blockquote><p>Markdown 是一种标记语言。在写作时，你的所有文字都是没有样式的纯文本，在其中插入若干 Markdown 标记后，被标记的文字便有了样式。</p><p>比如，在你所写的文字中，希望某一行的最终排版呈现一级标题的样式，那就给这行文字加个一级标题的标记；某个地方有两个字需要加粗，那就给这两个字加个粗体标记。</p></blockquote><h4 id="缩进"><a href="#缩进" class="headerlink" title="缩进"></a>缩进</h4><ul><li>文章中每个段落的<strong>开头</strong>不要缩进</li><li>列表中嵌套列表时，内层列表使用 4 个空格进行缩进</li><li>想要像上面那样在一个列表项中嵌入引用块，只要在 Markdown 中将引用块用 4 个空格缩进。除此之外，图片、代码块等元素也可以在列表下缩进</li><li>缩进时使用空格符，不用 Tab 符</li></ul><hr><h3 id="三、中文标点符号规范"><a href="#三、中文标点符号规范" class="headerlink" title="三、中文标点符号规范"></a>三、中文标点符号规范</h3><p>标点通用规则</p><p>中文排版时应全文使用中文全角标点，无论内容中是否包含英文词语。除非内容中包含完整的英文句子或段落，这种情况下英文内的标点使用半角标点。</p><h4 id="引号"><a href="#引号" class="headerlink" title="引号"></a>引号</h4><p>网络文章排版时使用直角引号——单引号「」，双引号『』。通常先使用「」，在引号嵌套时才在内层用『』。</p><h4 id="省略号"><a href="#省略号" class="headerlink" title="省略号"></a>省略号</h4><p>在中文输入法状态下，可使用「Shift + 6」输入省略号。注意是 6 个点，而非 3 个点，如：</p><blockquote><p>中文里常用的标点有逗号、句号、顿号、冒号……</p></blockquote><h4 id="破折号"><a href="#破折号" class="headerlink" title="破折号"></a>破折号</h4><p>在中文输入法状态下，可使用「Shift + -」输入破折号。注意该符号应占两个汉字宽度，如：</p><blockquote><p>破折号，标示语段中某些成分的注释、补充说明或语音、意义的变化。 ——《标点符号用法》</p></blockquote><h4 id="波浪线"><a href="#波浪线" class="headerlink" title="波浪线"></a>波浪线</h4><p>在中文输入法状态下，可使用「Shift + &#96;（ESC 键下方）」输入波浪线。可用波浪线表示数值的区间，如：</p><blockquote><p>只要 10～20 分钟你便能掌握这篇文章的要领。</p></blockquote><p>注意，日期时间或地名的区间用破折号表示，如</p><blockquote><p>某班上海——北京的高铁的运行时间是 10:00——16:00。</p></blockquote>]]></content>
+        <content type="html"><![CDATA[<h2 id="Markdown排版规范"><a href="#Markdown排版规范" class="headerlink" title="Markdown排版规范"></a>Markdown排版规范</h2><p>本文来自知乎作者黄浮云，转载仅用于Markdown练习以及排版规范学习。</p><p>原文链接：<a href="https://zhuanlan.zhihu.com/p/69376149">Markdwon排版规范</a></p><h3 id="一、Markdown-标记的典型使用"><a href="#一、Markdown-标记的典型使用" class="headerlink" title="一、Markdown 标记的典型使用"></a>一、Markdown 标记的典型使用</h3><h4 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h4><ul><li>文章的顶层标题使用 <strong>二级标题</strong> （有时文章的标题并不需要写在文章里，比如大多数博客有专门的位置填写文章标题，此时这级标题可以省略）</li><li>每个小节的标题使用 <strong>三级标题</strong></li><li>小节中进一步分层组织时使用 <strong>四级标题</strong></li><li>尽量少用 <strong>五级标题</strong> 和 <strong>六级标题</strong> ，考虑用有序列表和无序列表代替</li><li>完全不用 <strong>一级标题</strong></li></ul><h4 id="粗体、斜体"><a href="#粗体、斜体" class="headerlink" title="粗体、斜体"></a>粗体、斜体</h4><p>需要强调某处内容时使用 <strong>粗体</strong> ，如：</p><blockquote><p>中文全角标点符号占 <strong>一个</strong> 汉字宽度，英文半角标点占 <strong>半个</strong> 汉字宽度（亦即一个字母宽度）。</p></blockquote><p>在中文排版中不使用<em>斜体</em> 。在英文排版中可用斜体表达强调，或表示书名、题目。</p><h4 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h4><p>以下情况使用引用标记：</p><ul><li>引述内容时（也可直接用引号替代）</li><li>作示例时</li><li>给出提示、警告等额外说明时</li></ul><h4 id="行内代码"><a href="#行内代码" class="headerlink" title="行内代码"></a>行内代码</h4><p>某一行文字中嵌入简短代码时使用 <strong>行内代码</strong> ，如：</p><p><code>echo &#39;Hello Wrold&#39;</code></p><h4 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h4><p>展示多行代码时使用 <strong>代码块</strong> ，也可用于 XML、JSON、配置项等。尽量在使用代码块时给出语言标识，有些 Markdown 工具会针对该语言高亮显示其中的语言元素。如：</p><blockquote><p>#include &lt;stdio.h&gt;<br>main()<br>{<br>printf(“Hello World!\n”);<br>}</p></blockquote><p>将显示为：</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line">main()</span><br><span class="line">&#123;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;Hello World!\n&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h4 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h4><p>Markdown 中使用</p><p><code>![图片名称](xx.xx/xx)</code></p><p>来插入图片，这里的「图片名称」可以任取，但是推荐使用对图片主题具有描述性的文字。因为在一些网站或软件中，图片无法加载时会显示这个「图片名称」，这时至少还能给读者传递出一点有用信息。</p><h4 id="转义符号"><a href="#转义符号" class="headerlink" title="转义符号"></a>转义符号</h4><p>如果不想让 Markdown 标记生效，可以在标记的每个符号前加上反斜杠（****），这样这些符号将按原样显示，不再具有 Markdown 中的特殊意义。如：</p><blockquote><p>不想让引用块标记生效，可以使用\&gt;，将显示为 &gt;<br>不想让二级标题标记生效，可以使用#\# ，将显示为##</p></blockquote><hr><h3 id="二、空白符号的运用"><a href="#二、空白符号的运用" class="headerlink" title="二、空白符号的运用"></a>二、空白符号的运用</h3><h4 id="空格"><a href="#空格" class="headerlink" title="空格"></a>空格</h4><p>Markdown 中<strong>半角空格</strong>的使用很重要，一些情况下能调节文字间距使得排版更加美观。</p><ul><li>中英文混排时，英文前后各加一个空格，如：</li></ul><blockquote><p>请坚信 Markdown 会为你带来生产力的提升。</p></blockquote><ul><li>中文和阿拉伯数字混排时，数字前后各加一个空格，如：</li></ul><blockquote><p>2008 年已经过去 11 年了！</p></blockquote><ul><li>若英文或阿拉伯数字若紧邻<strong>中文全角标点</strong>，则其与标点之间<strong>不加</strong>空格，如：</li></ul><blockquote><p>有了 Markdown，可以不再用 Word。</p></blockquote><ul><li>行内代码的两端各添加一个空格。若行内代码紧邻标点符号，则其与标点之间<strong>不加</strong>空格</li></ul><blockquote><p>打开 Linux 虚拟终端，输入 <code>echo &#39;Hello World&#39;</code>。</p></blockquote><h4 id="空行"><a href="#空行" class="headerlink" title="空行"></a>空行</h4><p>正文段落之间用一个空行来分隔，可以显得段落分明、结构不拥挤，如：</p><blockquote><p>Markdown 是一种标记语言。在写作时，你的所有文字都是没有样式的纯文本，在其中插入若干 Markdown 标记后，被标记的文字便有了样式。</p><p>比如，在你所写的文字中，希望某一行的最终排版呈现一级标题的样式，那就给这行文字加个一级标题的标记；某个地方有两个字需要加粗，那就给这两个字加个粗体标记。</p></blockquote><h4 id="缩进"><a href="#缩进" class="headerlink" title="缩进"></a>缩进</h4><ul><li>文章中每个段落的<strong>开头</strong>不要缩进</li><li>列表中嵌套列表时，内层列表使用 4 个空格进行缩进</li><li>想要像上面那样在一个列表项中嵌入引用块，只要在 Markdown 中将引用块用 4 个空格缩进。除此之外，图片、代码块等元素也可以在列表下缩进</li><li>缩进时使用空格符，不用 Tab 符</li></ul><hr><h3 id="三、中文标点符号规范"><a href="#三、中文标点符号规范" class="headerlink" title="三、中文标点符号规范"></a>三、中文标点符号规范</h3><p>标点通用规则</p><p>中文排版时应全文使用中文全角标点，无论内容中是否包含英文词语。除非内容中包含完整的英文句子或段落，这种情况下英文内的标点使用半角标点。</p><h4 id="引号"><a href="#引号" class="headerlink" title="引号"></a>引号</h4><p>网络文章排版时使用直角引号——单引号「」，双引号『』。通常先使用「」，在引号嵌套时才在内层用『』。</p><h4 id="省略号"><a href="#省略号" class="headerlink" title="省略号"></a>省略号</h4><p>在中文输入法状态下，可使用「Shift + 6」输入省略号。注意是 6 个点，而非 3 个点，如：</p><blockquote><p>中文里常用的标点有逗号、句号、顿号、冒号……</p></blockquote><h4 id="破折号"><a href="#破折号" class="headerlink" title="破折号"></a>破折号</h4><p>在中文输入法状态下，可使用「Shift + -」输入破折号。注意该符号应占两个汉字宽度，如：</p><blockquote><p>破折号，标示语段中某些成分的注释、补充说明或语音、意义的变化。 ——《标点符号用法》</p></blockquote><h4 id="波浪线"><a href="#波浪线" class="headerlink" title="波浪线"></a>波浪线</h4><p>在中文输入法状态下，可使用「Shift + &#96;（ESC 键下方）」输入波浪线。可用波浪线表示数值的区间，如：</p><blockquote><p>只要 10～20 分钟你便能掌握这篇文章的要领。</p></blockquote><p>注意，日期时间或地名的区间用破折号表示，如</p><blockquote><p>某班上海——北京的高铁的运行时间是 10:00——16:00。</p></blockquote>]]></content>
       
       
       <categories>
@@ -68,6 +68,28 @@
     
     
     <entry>
+      <title></title>
+      <link href="/css/runtime.css"/>
+      <url>/css/runtime.css</url>
+      
+        <content type="html"><![CDATA[/*电子钟字体*/@font-face {    font-family: 'UnidreamLED';    src: url("https://cdn.jsdelivr.net/npm/akilar-candyassets/fonts/UnidreamLED.ttf");    font-display: swap;  }  div#runtime {    width: 300px;    margin: auto;    color: #fff;    padding-inline: 5px;    border-radius: 10px;    background-color: rgba(0, 0, 0, 0.401);    font-family: 'consolas';  }  [data-theme="dark"] div#runtime {    color: #ffffff;    box-shadow: 0 0 5px rgba(91, 177, 158, 0.272);    animation: flashlight 1s linear infinite alternate;  }  /*悬停显示徽标提示语*/  a.github-badge:hover:before {    position: fixed;    width: fit-content;    margin: auto;    left: 0;    right: 0;    top: 10%;    border-radius: 10px;    text-align: center;    z-index: 100;    content: attr(data-title);    font-size: 20px;    color: #fff;    padding: 10px;    background-color: var(--text-bg-hover);  }  [data-theme=dark] a.github-badge:hover:before {    background-color: rgba(18,18,18,0.8);  }  @-moz-keyframes flashlight {    from {      box-shadow: 0 0 5px #1478d2;    }    to {      box-shadow: 0 0 2px #1478d2;    }  }  @-webkit-keyframes flashlight {    from {      box-shadow: 0 0 5px #1478d2;    }    to {      box-shadow: 0 0 2px #1478d2;    }  }  @-o-keyframes flashlight {    from {      box-shadow: 0 0 5px #1478d2;    }    to {      box-shadow: 0 0 2px #1478d2;    }  }  @keyframes flashlight {    from {      box-shadow: 0 0 5px #1478d2;    }    to {      box-shadow: 0 0 2px #1478d2;    }  }]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/progress_bar.css"/>
+      <url>/css/progress_bar.css</url>
+      
+        <content type="html"><![CDATA[.pace {    -webkit-pointer-events: none;    pointer-events: none;    -webkit-user-select: none;    -moz-user-select: none;    user-select: none;    z-index: 2000;    position: fixed;    margin: auto;    top: 10px;    left: 0;    right: 0;    height: 8px;    border-radius: 8px;    width: 4rem;    background: #eaecf2;    border: 1px #e3e8f7;    overflow: hidden;  }    .pace-inactive .pace-progress {    opacity: 0;    transition: 0.3s ease-in;  }    .pace .pace-progress {    -webkit-box-sizing: border-box;    -moz-box-sizing: border-box;    -ms-box-sizing: border-box;    -o-box-sizing: border-box;    box-sizing: border-box;    -webkit-transform: translate3d(0, 0, 0);    -moz-transform: translate3d(0, 0, 0);    -ms-transform: translate3d(0, 0, 0);    -o-transform: translate3d(0, 0, 0);    transform: translate3d(0, 0, 0);    max-width: 200px;    position: absolute;    z-index: 2000;    display: block;    top: 0;    right: 100%;    height: 100%;    width: 100%;    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);    animation: gradient 1.5s ease infinite;    background-size: 200%;  }    .pace.pace-inactive {    opacity: 0;    transition: 0.3s;    top: -8px;  }  @keyframes gradient {    0% {      background-position: 0% 50%;    }    50% {      background-position: 100% 50%;    }    100% {      background-position: 0% 50%;    }  }  ]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>分类</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
@@ -90,33 +112,11 @@
     
     
     <entry>
-      <title></title>
-      <link href="/css/runtime.css"/>
-      <url>/css/runtime.css</url>
-      
-        <content type="html"><![CDATA[/*电子钟字体*/@font-face {    font-family: 'UnidreamLED';    src: url("https://cdn.jsdelivr.net/npm/akilar-candyassets/fonts/UnidreamLED.ttf");    font-display: swap;  }  div#runtime {    width: 300px;    margin: auto;    color: #fff;    padding-inline: 5px;    border-radius: 10px;    background-color: rgba(0, 0, 0, 0.401);    font-family: 'consolas';  }  [data-theme="dark"] div#runtime {    color: #ffffff;    box-shadow: 0 0 5px rgba(91, 177, 158, 0.272);    animation: flashlight 1s linear infinite alternate;  }  /*悬停显示徽标提示语*/  a.github-badge:hover:before {    position: fixed;    width: fit-content;    margin: auto;    left: 0;    right: 0;    top: 10%;    border-radius: 10px;    text-align: center;    z-index: 100;    content: attr(data-title);    font-size: 20px;    color: #fff;    padding: 10px;    background-color: var(--text-bg-hover);  }  [data-theme=dark] a.github-badge:hover:before {    background-color: rgba(18,18,18,0.8);  }  @-moz-keyframes flashlight {    from {      box-shadow: 0 0 5px #1478d2;    }    to {      box-shadow: 0 0 2px #1478d2;    }  }  @-webkit-keyframes flashlight {    from {      box-shadow: 0 0 5px #1478d2;    }    to {      box-shadow: 0 0 2px #1478d2;    }  }  @-o-keyframes flashlight {    from {      box-shadow: 0 0 5px #1478d2;    }    to {      box-shadow: 0 0 2px #1478d2;    }  }  @keyframes flashlight {    from {      box-shadow: 0 0 5px #1478d2;    }    to {      box-shadow: 0 0 2px #1478d2;    }  }]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>兴趣</title>
       <link href="/intrest/index.html"/>
       <url>/intrest/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/css/progress_bar.css"/>
-      <url>/css/progress_bar.css</url>
-      
-        <content type="html"><![CDATA[.pace {    -webkit-pointer-events: none;    pointer-events: none;    -webkit-user-select: none;    -moz-user-select: none;    user-select: none;    z-index: 2000;    position: fixed;    margin: auto;    top: 10px;    left: 0;    right: 0;    height: 8px;    border-radius: 8px;    width: 4rem;    background: #eaecf2;    border: 1px #e3e8f7;    overflow: hidden;  }    .pace-inactive .pace-progress {    opacity: 0;    transition: 0.3s ease-in;  }    .pace .pace-progress {    -webkit-box-sizing: border-box;    -moz-box-sizing: border-box;    -ms-box-sizing: border-box;    -o-box-sizing: border-box;    box-sizing: border-box;    -webkit-transform: translate3d(0, 0, 0);    -moz-transform: translate3d(0, 0, 0);    -ms-transform: translate3d(0, 0, 0);    -o-transform: translate3d(0, 0, 0);    transform: translate3d(0, 0, 0);    max-width: 200px;    position: absolute;    z-index: 2000;    display: block;    top: 0;    right: 100%;    height: 100%;    width: 100%;    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);    animation: gradient 1.5s ease infinite;    background-size: 200%;  }    .pace.pace-inactive {    opacity: 0;    transition: 0.3s;    top: -8px;  }  @keyframes gradient {    0% {      background-position: 0% 50%;    }    50% {      background-position: 100% 50%;    }    100% {      background-position: 0% 50%;    }  }  ]]></content>
       
     </entry>
     
@@ -134,9 +134,9 @@
     
     
     <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>友链</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -145,9 +145,9 @@
     
     
     <entry>
-      <title>友链</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
